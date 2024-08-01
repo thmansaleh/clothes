@@ -615,17 +615,7 @@ export const drivers =()=> {
         "duty": "المسائية"
     },
 
-    {
-        "name": "موسى ثاني يوسفي",
-        "status": "true",
-        "id": 1020,
-        "job_id": 76440,
-        "phone": "0523934995",
-        "duty_id": 2,
-        "shift_id": 3,
-        "shift": "3",
-        "duty": "المسائية"
-    },
+   
     {
         "name": "محمد سالم ناصر أحمد",
         "status": "true",
@@ -886,17 +876,7 @@ export const drivers =()=> {
         "shift": "4",
         "duty": "الصباحية "
     },
-    {
-        "name": "محمد فراس محمد خليل دومي",
-        "status": "true",
-        "id": 1096,
-        "job_id": 87288,
-        "phone": "",
-        "duty_id": 1,
-        "shift_id": 4,
-        "shift": "4",
-        "duty": "الصباحية "
-    }
+   
 ]
 console.log(data.length)
 
