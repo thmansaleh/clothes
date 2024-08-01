@@ -42,15 +42,15 @@ if( cap && shoes)    {
   <div className="p-3 flex justify-center items-center flex-col gap-y-6">
 
       <div>
-            <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">الرقم المالي </label>
+            <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">ادخل الرقم المالي </label>
             <input  onChange={e=>showContent(e.target.value)} type="number" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block  p-2.5  w-44" placeholder="" required />
         </div>
 
 
 {driver&&
         <div className="space-y-4">
-
-            <h3>ادخل القياسات</h3>
+<div className="text-sm text-gray-500 ">{driver.name}</div>
+            <h3 className="text-md font-semibold">ادخل القياسات</h3>
             <input onChange={e=>setCap(e.target.value)}  type="number" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block  p-2.5  w-44" placeholder="البريهه"  />
             <input onChange={e=>setShoes(e.target.value)}   type="number" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block  p-2.5  w-44" placeholder="الحذا"  />
             <input  onChange={e=>setNote(e.target.value)}   type="text" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block  p-2.5  w-44" placeholder="ملاحظات"  />
