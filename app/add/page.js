@@ -53,8 +53,8 @@ if( cap && shoes)    {
 <div className="text-sm text-gray-500 ">{driver.name}</div>
             <h3 className="text-md font-semibold">ادخل القياسات</h3>
             <input onChange={e=>setCap(e.target.value)}  type="number" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block  p-2.5  w-44" placeholder="البريهه"  />
-            <input onChange={e=>setShoes(e.target.value)}   type="number" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block  p-2.5  w-44" placeholder="الحذا"  />
-            <input  onChange={e=>setNote(e.target.value)}   type="text" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block  p-2.5  w-44" placeholder="ملاحظات"  />
+            <input onChange={e=>setShoes(e.target.value)}   type="number" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block  p-2.5  w-44" placeholder="الحذاء"  />
+            <input  onChange={e=>setNote(e.target.value)}   type="text" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block  p-2.5  w-44" placeholder="الملاحظات"  />
 
             <button onClick={send} className="w-full bg-green-600 text-sm font-semibold text-white py-2 rounded-lg">ارسال</button>
         
