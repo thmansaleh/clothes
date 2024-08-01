@@ -39,6 +39,7 @@ if( cap && shoes)    {
     }
 
   return <>
+      <h3 className="text-md my-5 text-center font-semibold text-gray-700"> وحدة إدارة الحوادث المرورية</h3>
   <div className="p-3 flex justify-center items-center flex-col gap-y-6">
 
       <div>
