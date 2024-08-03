@@ -29,7 +29,7 @@ if(driver.length>0){
 if( cap && shoes)    {
     await sendClothes(driver.job_id,cap,shoes,note)
 
-    console.log(driver.job_id,shoes,cap,note)
+    // console.log(driver.job_id,shoes,cap,note)
     setMassage('تم الارسال بنجاح')
 
 }  else{
